@@ -1,0 +1,105 @@
+body{
+	background-color:lightblue;
+}
+
+main{
+	background-color: pink;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.center {
+  	display: block;
+  	margin-top: 50px;
+  	margin-bottom:0px; 
+  	margin-left: auto;
+  	margin-right: auto; 
+}
+
+/*fadded in*/
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightblue;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.text {
+  font-family: 'Oleo Script', cursive;
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.grid{
+  margin:30px;
+  margin-bottom:30px;
+}
+
+/*list*/
+.nav{
+  list-style:none;
+  padding:0px;
+  display:flex;
+  background-color:lightblue;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  font-family: 'Oleo Script', cursive;
+  cursor: pointer;
+}
+
+.nav li{
+  background-color:pink;
+  padding:20px;
+  margin:15px;
+  width:100px;
+  text-align: center;
+  border-radius: 50px;
+}
+.grid-item{
+  width:250px;
+}
+
+.tea{
+  color:red;
+}
+.milktea{
+  color:blue;
+}
+.flavoured{
+  color: purple;
+}
+.toppings{
+  color:orange;
+}
+
+
+
+
+
+
+
+
+
+
